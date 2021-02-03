@@ -1,4 +1,4 @@
-# MRE for avajs/ava
+# MRE for [avajs/ava#2662](https://github.com/avajs/ava/issues/2662)
 
 Skipping snapshot assertions with ids changes the result of subsequent snapshot assertions, resulting in spurious failures or spurious recorded snapshots.
 
