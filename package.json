@@ -1,0 +1,8 @@
+{
+	"scripts": {
+		"test": "echo \"Updating snapshots\" && ava --update-snapshots && echo \"Running without skip\" && ava && echo \"Running with skip\" && (SKIP_ID=true ava)"
+	},
+	"devDependencies": {
+		"ava": "^3.15.0"
+	}
+}
